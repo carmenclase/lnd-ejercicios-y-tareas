@@ -1,0 +1,72 @@
+[
+    {
+        "nombre del partido": "Clásico Español",
+        "equipo local": "Real Madrid",
+        "equipo visitante": "FC Barcelona",
+        "fecha": "2024-03-15",
+        "resultado": "2-1"
+    },
+    {
+        "nombre del partido": "Derbi de Manchester",
+        "equipo local": "Manchester United",
+        "equipo visitante": "Manchester City",
+        "fecha": "2024-04-10",
+        "resultado": "1-3"
+    },
+    {
+        "nombre del partido": "Superclásico Argentino",
+        "equipo local": "Boca Juniors",
+        "equipo visitante": "River Plate",
+        "fecha": "2024-05-22",
+        "resultado": "0-0"
+    },
+    {
+        "nombre del partido": "Derbi Madrileño",
+        "equipo local": "Atlético Madrid",
+        "equipo visitante": "Real Madrid",
+        "fecha": "2024-06-01",
+        "resultado": "1-2"
+    },
+    {
+        "nombre del partido": "Clásico del Sur",
+        "equipo local": "Sevilla FC",
+        "equipo visitante": "Real Betis Balompié",
+        "fecha": "2024-07-20",
+        "resultado": "3-2"
+    },
+    {
+        "nombre del partido": "Derbi de Milán",
+        "equipo local": "AC Milán",
+        "equipo visitante": "Inter de Milán",
+        "fecha": "2024-08-12",
+        "resultado": "0-1"
+    },
+    {
+        "nombre del partido": "Clásico de Italia",
+        "equipo local": "Juventus",
+        "equipo visitante": "AC Milán",
+        "fecha": "2024-09-03",
+        "resultado": "2-2"
+    },
+    {
+        "nombre del partido": "Clásico Londinense",
+        "equipo local": "Chelsea",
+        "equipo visitante": "Arsenal",
+        "fecha": "2024-10-05",
+        "resultado": "3-1"
+    },
+    {
+        "nombre del partido": "Derbi de Glasgow",
+        "equipo local": "Celtic",
+        "equipo visitante": "Rangers",
+        "fecha": "2024-11-17",
+        "resultado": "1-1"
+    },
+    {
+        "nombre del partido": "Derbi de Roma",
+        "equipo local": "AS Roma",
+        "equipo visitante": "Lazio",
+        "fecha": "2024-12-25",
+        "resultado": "2-0"
+    }
+]
