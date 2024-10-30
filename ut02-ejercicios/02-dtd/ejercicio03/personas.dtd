@@ -1,0 +1,12 @@
+<!ELEMENT personas (persona+)> <!-- Debe haber al menos 1 persona -->
+<!ELEMENT persona (id, nombre, apellidos, telefono, correo, direccion)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ATTLIST correo electronico CDATA #IMPLIED> <!-- Atributo no obligatorio, porque ya existe un contacto (teléfono)-->
+<!ELEMENT direccion (via, nombre_via, numero)>
+<!ELEMENT via (#PCDATA)>
+<!ELEMENT nombre_via (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>

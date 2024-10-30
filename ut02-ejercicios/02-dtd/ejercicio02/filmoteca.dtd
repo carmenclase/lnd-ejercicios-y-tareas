@@ -1,0 +1,9 @@
+<!ELEMENT filmoteca (pelicula+)> <!-- Debe de haber al menos una película -->
+<!ELEMENT pelicula (titulo, director, año, duracion, genero, calificacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion unidad (minutos) #IMPLIED> <!-- Atributo no obligatorio, ya que se sobreentiende que una película no dura 100 horas -->
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>

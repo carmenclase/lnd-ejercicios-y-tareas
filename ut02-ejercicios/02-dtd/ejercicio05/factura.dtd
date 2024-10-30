@@ -1,0 +1,38 @@
+<!ELEMENT factura (datos, entidades, productos, precios, comentarios)>
+<!-- Datos -->
+<!ELEMENT datos (fecha_factura, id, fecha_vencimiento)>
+<!ELEMENT fecha_factura (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT fecha_vencimiento (#PCDATA)>
+<!-- Entidades -->
+<!ELEMENT entidades (entidad+)>  <!-- Tiene que haber al menos 1 entidad -->
+<!ELEMENT entidad (nombre, direccion, identificador, ciudad, correo)>
+<!ATTLIST entidad tipo (cliente | vendedor) #REQUIRED> <!-- El atributo es obligatorio, porque es esencial diferenciar entre comprador y vendedor -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion tipo CDATA #REQUIRED> <!-- El atributo es obligatorio, para poder diferenciar el tipo de vía -->
+<!ELEMENT identificador (#PCDATA)>
+<!ATTLIST identificador documento CDATA #REQUIRED> <!-- El atributo es obligatorio, para tener el documento de identificación válido -->
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST ciudad cp CDATA #IMPLIED> <!-- El atributo no es obligatorio, ya que la dirección lo es -->
+<!ELEMENT correo (#PCDATA)>
+<!ATTLIST correo electronico CDATA #REQUIRED> <!-- El atributo es obligatorio, para tener un contacto -->
+<!-- Productos -->
+<!ELEMENT productos (producto+)> <!-- Tiene que haber al menos 1 producto -->
+<!ELEMENT producto (descripcion, unidades, moneda, precio_unitario, precio)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT moneda (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!-- Precios -->
+<!ELEMENT precios (moneda, base, iva, irpf, total)>
+<!ELEMENT base (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ATTLIST iva porcentaje CDATA #REQUIRED> <!-- El atributo es obligatorio, porque hay distintos tipos de IVA -->
+<!ELEMENT irpf (#PCDATA)>
+<!ATTLIST irpf porcentaje CDATA #REQUIRED> <!-- El atributo es obligatorio, porque hay distintos tipos de IRPF -->
+<!ELEMENT total (#PCDATA)>
+<!-- Comentarios -->
+<!ELEMENT comentarios (comentario*)>  <!-- Puede o no haber comentarios -->
+<!ELEMENT comentario (#PCDATA)>

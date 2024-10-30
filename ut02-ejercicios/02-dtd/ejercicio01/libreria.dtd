@@ -1,0 +1,7 @@
+<!ELEMENT libreria (libro+)> <!-- Debe de haber al menos 1 libro -->
+<!ELEMENT libro (titulo, autor, año, precio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED> <!-- Atributo obligatorio, ya que hay dos monedas distintas en este documento -->

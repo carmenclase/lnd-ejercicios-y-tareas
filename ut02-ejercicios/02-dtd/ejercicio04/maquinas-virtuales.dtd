@@ -1,0 +1,14 @@
+<!ELEMENT mvs (maquina+)> <!-- Debe de haber al menos 1 máquina virutual -->
+<!ELEMENT maquina (id, nombre, cpu, ram, disco, tamaño, adaptador)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cpu (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ATTLIST ram unidad CDATA #REQUIRED>
+<!ELEMENT disco (#PCDATA)>
+<!ATTLIST disco tipo CDATA #REQUIRED>
+<!ELEMENT tamaño (#PCDATA)>
+<!ATTLIST tamaño unidad CDATA #REQUIRED>
+<!ELEMENT adaptador (#PCDATA)>
+
+<!-- Todos los atributos de este documento son obligatorios, ya que podría haber confusión de no especificar las unidades de almacenamiento y el tipo de archivo -->
