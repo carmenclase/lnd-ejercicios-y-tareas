@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<estudiantes>
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="estudiantes.xsd">
     <estudiante>
         <nombre>Juan</nombre>
         <apellidos>Pérez López</apellidos>
-        <matricula>1234567</matricula>
+        <matricula num="1234567"/>
         <fecha_inscripcion>2020-09-01</fecha_inscripcion>
         <correo electronico="juan.perez@email.com"/>
         <telefonos>
-            <tel_1>1234567890</tel_1>
-            <tel_2>9876543210</tel_2>
+            <tel>1234567890</tel>
+            <tel>9876543210</tel>
         </telefonos>
         <direccion>
             <via>calle</via>
@@ -19,13 +19,13 @@
     <estudiante>
         <nombre>María</nombre>
         <apellidos>García Morales</apellidos>
-        <matricula>2345678</matricula>
+        <matricula num="2345678"/>
         <fecha_inscripcion>2021-06-15</fecha_inscripcion>
         <correo electronico="maria.garcia@email.com"/>
         <telefonos>
-            <tel_1>1234509876</tel_1>
-            <tel_2>5432167890</tel_2>
-            <tel_3>6789012345</tel_3>
+            <tel>1234509876</tel>
+            <tel>5432167890</tel>
+            <tel>6789012345</tel>
         </telefonos>
         <direccion>
             <via>avenida</via>
@@ -36,11 +36,11 @@
     <estudiante>
         <nombre>Pedro</nombre>
         <apellidos>Fernández Ruiz</apellidos>
-        <matricula>3456789</matricula>
+        <matricula num="3456789"/>
         <fecha_inscripcion>2019-11-20</fecha_inscripcion>
         <correo electronico="pedro.fernandez@email.com"/>
         <telefonos>
-            <tel_1>3456789012</tel_1>
+            <tel>3456789012</tel>
         </telefonos>
         <direccion>
             <via>calle</via>
@@ -51,12 +51,12 @@
     <estudiante>
         <nombre>Ana</nombre>
         <apellidos>Sánchez Torres</apellidos>
-        <matricula>4567890</matricula>
+        <matricula num="4567890"/>
         <fecha_inscripcion>2022-03-10</fecha_inscripcion>
         <correo electronico="ana.sanchez@email.com"/>
         <telefonos>
-            <tel_1>4567890123</tel_1>
-            <tel_2>7890123456</tel_2>
+            <tel>4567890123</tel>
+            <tel>7890123456</tel>
         </telefonos>
         <direccion>
             <via>avenida</via>
@@ -67,13 +67,13 @@
     <estudiante>
         <nombre>Luis</nombre>
         <apellidos>Martínez Gómez</apellidos>
-        <matricula>5678901</matricula>
+        <matricula num="5678901"/>
         <fecha_inscripcion>2023-01-05</fecha_inscripcion>
         <correo electronico="luis.martinez@email.com"/>
         <telefonos>
-            <tel_1>8901234567</tel_1>
-            <tel_2>2345678901</tel_2>
-            <tel_3>6789012345</tel_3>
+            <tel>8901234567</tel>
+            <tel>2345678901</tel>
+            <tel>6789012345</tel>
         </telefonos>
         <direccion>
             <via>calle</via>
