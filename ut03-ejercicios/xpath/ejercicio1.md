@@ -39,24 +39,22 @@
 </bookstore>
 ```
 
-Pregunta 1. Selecciona todos los títulos de los libros.
-`//title/text()`
+Pregunta 1. Selecciona todos los títulos de los libros. `//title/text()`
 
-Pregunta 2. Selecciona los autores de los libros en el género "Programming".
+Pregunta 2. Selecciona los autores de los libros en el género "Programming". `//book[genre="Programming"]/author/text()`
 
+Pregunta 3. Selecciona el precio del libro "The Art of War". `//book[title="The Art of War"]/price/text()`
 
-Pregunta 3. Selecciona el precio del libro "The Art of War".
+Pregunta 4. Cuenta cuántos libros tienen más de 20 en stock. `count(//book[stock > 20])`
 
-Pregunta 4. Cuenta cuántos libros tienen más de 20 en stock.
+Pregunta 5. Selecciona todos los géneros únicos disponibles en la tienda. `distinct-values(//genre/text())`
 
-Pregunta 5. Selecciona todos los géneros únicos disponibles en la tienda.
+Pregunta 6. Selecciona el autor cuyo libro cuesta más. `//book[price=max(//price)]/author/text()`
 
-Pregunta 6. Selecciona el autor cuyo libro cuesta más.
+Pregunta 7. Selecciona el título del libro más barato. `//book[price=min(//price)]/title/text()`
 
-Pregunta 7. Selecciona el título del libro más barato.
+Pregunta 8. Selecciona todos los libros cuyo precio esté entre 10 y 30. `//book[price > 10 and price < 30]`
 
-Pregunta 8. Selecciona todos los libros cuyo precio esté entre 10 y 30.
+Pregunta 9. Selecciona todos los libros que tengan menos de 20 unidades en stock. `//book[stock < 20]`
 
-Pregunta 9. Selecciona todos los libros que tengan menos de 20 unidades en stock.
-
-Pregunta 10. Selecciona el atributo id de todos los libros.
+Pregunta 10. Selecciona el atributo id de todos los libros. `//@id`

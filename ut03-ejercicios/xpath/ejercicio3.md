@@ -34,22 +34,22 @@
 </library>
 ```
 
-Pregunta 1. Selecciona todos los títulos de los libros.
+Pregunta 1. Selecciona todos los títulos de los libros. `//book/title/text()`
 
-Pregunta 2. Selecciona todos los libros disponibles (con available="true").
+Pregunta 2. Selecciona todos los libros disponibles (con available="true"). `//book[available="true"]`
 
-Pregunta 3. Selecciona el autor del libro "1984".
+Pregunta 3. Selecciona el autor del libro "1984". `//book[author="1984"]/author/text()`
 
-Pregunta 4. Selecciona todos los géneros de libros únicos.
+Pregunta 4. Selecciona todos los géneros de libros únicos. `distinct-values(//genre/text())`
 
-Pregunta 5. Cuenta cuántos libros están disponibles.
+Pregunta 5. Cuenta cuántos libros están disponibles. `count(//book[available="true"])`
 
-Pregunta 6. Selecciona los títulos de los libros que no están disponibles.
+Pregunta 6. Selecciona los títulos de los libros que no están disponibles. `//book[available="false"]/title/text()`
 
-Pregunta 7. Selecciona los autores cuyos libros están disponibles.
+Pregunta 7. Selecciona los autores cuyos libros están disponibles. `//book[available="true"]/author/text()`
 
-Pregunta 8. Selecciona el ID del libro "The Great Gatsby".
+Pregunta 8. Selecciona el ID del libro "The Great Gatsby". `//book[title="The Great Gatsby"]/@id`
 
-Pregunta 9. Selecciona todos los libros del género "Fiction".
+Pregunta 9. Selecciona todos los libros del género "Fiction". `//book[genre="Fiction"]`
 
-Pregunta 10. Selecciona los títulos de los libros cuyo autor es "Herman Melville".
+Pregunta 10. Selecciona los títulos de los libros cuyo autor es "Herman Melville". `//book[author="Herman Melville"]`
