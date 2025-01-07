@@ -1,0 +1,18 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="html" indent="yes"/>
+
+    <xsl:template match="/">
+        <html>
+            <body>
+                <nav>
+                    <xsl:for-each select="menu/item">
+                    <ul>
+                        <li><xsl:value-of select="."/></li>
+                    </ul>
+                    </xsl:for-each>
+                </nav>
+            </body>
+        </html>
+    </xsl:template>
+
+</xsl:stylesheet>

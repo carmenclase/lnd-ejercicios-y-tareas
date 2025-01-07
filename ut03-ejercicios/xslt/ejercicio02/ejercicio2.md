@@ -1,4 +1,5 @@
-# 2. Ejercicio: Crear una Tabla de Libros
+# Ejercicio 2.
+Crear una Tabla de Libros
 
 XML de entrada:
 

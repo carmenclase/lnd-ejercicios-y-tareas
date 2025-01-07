@@ -1,4 +1,5 @@
-# 1. Ejercicio: Crear una Lista HTML
+# Ejercicio 1.
+Crear una Lista HTML
 
 XML de entrada:
 ```
@@ -11,7 +12,7 @@ XML de entrada:
 
 Instrucciones:
 
-Generar una lista HTML desordenada (<ul>) con los nombres de las frutas.
+Generar una lista HTML desordenada (`<ul>`) con los nombres de las frutas.
 
 Solución:
 
