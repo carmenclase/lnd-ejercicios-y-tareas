@@ -1,0 +1,14 @@
+<catalogo>
+  <producto id="1" categoria="Electrónica">
+    <nombre>Portátil</nombre>
+    <precio>800</precio>
+  </producto>
+  <producto id="2" categoria="Electrónica">
+    <nombre>Monitor</nombre>
+    <precio>200</precio>
+  </producto>
+  <producto id="3" categoria="Accesorios">
+    <nombre>Ratón</nombre>
+    <precio>25</precio>
+  </producto>
+</catalogo>

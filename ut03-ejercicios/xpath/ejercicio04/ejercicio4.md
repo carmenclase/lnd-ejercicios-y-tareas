@@ -39,22 +39,22 @@
 </musicCatalog>
 ```
 
-Pregunta 1. Selecciona todos los títulos de los álbumes.
+Pregunta 1. Selecciona todos los títulos de los álbumes. `//title/text()`
 
-Pregunta 2. Selecciona los títulos de los álbumes del género "Rock".
+Pregunta 2. Selecciona los títulos de los álbumes del género "Rock". `//album[genre="Rock"]/title/text()`
 
-Pregunta 3. Selecciona el precio del álbum "21".
+Pregunta 3. Selecciona el precio del álbum "21". `//album[title="21"]/price/text()`
 
-Pregunta 4. Cuenta cuántos álbumes tienen más de 20 en stock.
+Pregunta 4. Cuenta cuántos álbumes tienen más de 20 en stock. `count(//album[stock > 20])`
 
-Pregunta 5. Selecciona los nombres de los artistas cuyos álbumes cuestan más de 18 USD.
+Pregunta 5. Selecciona los nombres de los artistas cuyos álbumes cuestan más de 18 USD. `//album[price > 18]/artist/text()`
 
-Pregunta 6. Selecciona el álbum más caro.
+Pregunta 6. Selecciona el álbum más caro. `//album[price=max(//price)]`
 
-Pregunta 7. Selecciona el género del álbum "Thriller".
+Pregunta 7. Selecciona el género del álbum "Thriller". `//album[title="Thriller"]/genre/text()`
 
-Pregunta 8. Selecciona el ID de todos los álbumes de la artista "Adele".
+Pregunta 8. Selecciona el ID de todos los álbumes de la artista "Adele". `//album[artist="Adele"]/@id`
 
-Pregunta 9. Selecciona los álbumes con menos de 30 en stock.
+Pregunta 9. Selecciona los álbumes con menos de 30 en stock. `//album[stock < 30]`
 
-Pregunta 10. Selecciona todos los géneros únicos disponibles.
+Pregunta 10. Selecciona todos los géneros únicos disponibles. `distinct-values(//genre)`
