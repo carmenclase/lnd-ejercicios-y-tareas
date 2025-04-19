@@ -25,3 +25,21 @@ Realiza el mismo ejercicio que el ejercicio 1, pero en vez de usar etiquetas `<d
 [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 [01]: ./ejercicio-estructura-web01.jpg "01"
+
+
+### Referencias
+
+Etiqueta `<div>`:
+- https://www.w3schools.com/html/html_div.asp
+- https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/div 
+
+Alineación horizontal y vertical CSS:
+- https://www.w3schools.com/csS/css_align.asp
+- https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+
+Botones CSS:
+- https://www.w3schools.com/csS/css3_buttons.asp
+- https://www.w3schools.com/cssref/css3_pr_box-shadow.php 
+
+Flex:
+- https://www.w3schools.com/cssref/css3_pr_flex.php 
