@@ -2,7 +2,7 @@
     color: darkblue;
     font-family: Georgia;
 }
-p:first-child {
+.noticia p:first-of-type {
     font-style: italic;
 }
 .noticia a:link {

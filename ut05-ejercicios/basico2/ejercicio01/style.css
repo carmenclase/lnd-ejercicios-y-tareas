@@ -1,21 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .tarjeta {
-    font-family: Helvetica;
+    background-color: white;
     max-width: 300px;
-    border: 1px solid white;
     border-radius: 10px;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 2px 2px 2px 2px lightgray;
+    box-shadow: 0 4px 10px lightgray;
     padding: 20px;
 }
+
 h2 {
     text-align: center;
     font-size: 24px;
 }
+
 button {
     background-color: #027bff;
     color: white;
-    width: 300px;
-    border-radius: 5px;
+    width: 100%;
     border: none;
+    border-radius: 5px;
     padding: 10px;
 }

@@ -1,6 +1,7 @@
-table {
-    border: 1;
+table, td {
+    border: 1px solid gray;
 }
+
 #fila1 {
     color: teal;
 }
